@@ -1,0 +1,16 @@
+at+netmode=2
+at+dhcpd=0
+at+wifi_conf=SOHO,wpawpa2_aes,jackzhong
+at+dhcpc=1
+at+net_ip=0.0.0.0,0.0.0.0,0.0.0.0
+at+net_dns=0.0.0.0,0.0.0.0
+at+remotepro=tcp
+at+mode=client
+at+remoteip=tcp.lewei50.com
+at+remoteport=9960
+at+timeout=0
+at+uart=38400,8,n,1
+at+uartpacklen=64
+at+uartpacktimeout=10
+at+net_commit=1
+at+reconn=1
